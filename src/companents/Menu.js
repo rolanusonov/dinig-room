@@ -43,8 +43,6 @@ import { EffectFade, Navigation, Pagination } from "swiper";
                     <div className="menuTitleBlock">
                         <h1 className="menuTitle">У нас на завтрак рабочим дают  2 кусочка сливочного масла,  2 варёных яйца, хлеб, соль и горячий чай.</h1>
                     </div>
-
-
                 </div>
             </div>
         </div>

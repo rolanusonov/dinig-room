@@ -37,7 +37,6 @@ const Place = () => {
                     <div className="menuTitleBlock">
                         <h1 className="placeTitle">На обед и ужин дают блюда которые вы видите на фото.</h1>
                     </div>
-
                 </div>
             </div>
         </div>
