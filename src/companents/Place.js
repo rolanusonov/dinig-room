@@ -2,6 +2,9 @@ import React from 'react';
 import {Swiper, SwiperSlide} from "swiper/react";
 import {EffectFade, Navigation, Pagination} from "swiper";
 import img1 from "./img/sticker.webp";
+import img5 from "./img/sticker5.webp";
+import img6 from "./img/sticker6.webp";
+import img7 from "./img/sticker8.webp";
 
 const Place = () => {
     return (
@@ -21,17 +24,15 @@ const Place = () => {
                             className="mySwiper"
                         >
                             <SwiperSlide>
-                                <img src={img1} alt="" className="imgSlider" />
+                                <img src={img5} alt="" className="imgSlider" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+                                <img src={img6} alt="" className="imgSlider" />
                             </SwiperSlide>
                             <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt="" />
+                                <img src={img7} alt="" className="imgSlider" />
                             </SwiperSlide>
-                            <SwiperSlide>
-                                <img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt="" />
-                            </SwiperSlide>
+
                         </Swiper>
                     </div>
                     <div className="menuTitleBlock">

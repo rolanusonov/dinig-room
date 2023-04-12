@@ -38,9 +38,7 @@ import { EffectFade, Navigation, Pagination } from "swiper";
                         <SwiperSlide>
                             <img src={img3} alt=""  className="imgSlider"/>
                         </SwiperSlide>
-                        <SwiperSlide>
-                            <img src={img4} alt=""  className="imgSlider"/>
-                        </SwiperSlide>
+ >
 
                     </Swiper>
                 </div>
