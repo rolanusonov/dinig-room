@@ -1,8 +1,10 @@
-import React from 'react';
-import {Swiper, SwiperSlide} from "swiper/react";
-import {EffectFade, Navigation, Pagination} from "swiper";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "./stylus.css";
+import { Navigation } from "swiper";
 import img1 from "./img/sticker.webp";
-import img5 from "./img/sticker5.webp";
 import img6 from "./img/sticker6.webp";
 import img7 from "./img/sticker8.webp";
 
@@ -13,26 +15,10 @@ const Place = () => {
                 <div className="placeLine"></div>
                 <div className="place">
                     <div className="menuSliderBlock">
-                        <Swiper
-                            spaceBetween={30}
-                            effect={"fade"}
-                            navigation={true}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            modules={[EffectFade, Navigation, Pagination]}
-                            className="mySwiper"
-                        >
-                            <SwiperSlide>
-                                <img src={img5} alt="" className="imgSlider" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={img6} alt="" className="imgSlider" />
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <img src={img7} alt="" className="imgSlider" />
-                            </SwiperSlide>
-
+                        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+                            <SwiperSlide><img src={img6} alt=""/></SwiperSlide>
+                            <SwiperSlide><img src={img7} alt=""/></SwiperSlide>
+                            <SwiperSlide><img src={img1} alt=""/></SwiperSlide>
                         </Swiper>
                     </div>
                     <div className="menuTitleBlock">
