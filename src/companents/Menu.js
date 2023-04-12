@@ -6,6 +6,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./stylus.css";
 import img1 from "./img/1465-ed4_wide.jpg"
+import img2 from "./img/sticker2.webp"
+import img3 from "./img/sticker3.webp"
+import img4 from "./img/sticker4.webp"
 
 // import required modules
 import { EffectFade, Navigation, Pagination } from "swiper";
@@ -30,14 +33,15 @@ import { EffectFade, Navigation, Pagination } from "swiper";
                             <img src={img1} alt="" className="imgSlider" />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+                            <img src={img2} alt=""  className="imgSlider"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="https://swiperjs.com/demos/images/nature-3.jpg"  alt="" />
+                            <img src={img3} alt=""  className="imgSlider"/>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src="https://swiperjs.com/demos/images/nature-4.jpg"  alt="" />
+                            <img src={img4} alt=""  className="imgSlider"/>
                         </SwiperSlide>
+
                     </Swiper>
                 </div>
                     <div className="menuTitleBlock">
