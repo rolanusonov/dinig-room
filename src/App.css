@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
     width: 90%;
     margin: 0 auto;
@@ -35,6 +39,7 @@
     -webkit-box-shadow: 4px 5px 8px 0 rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 4px 5px 8px 0 rgba(34, 60, 80, 0.2);
     box-shadow: 4px 5px 8px 0 rgba(34, 60, 80, 0.2);
+    margin: 10px 0;
 }
 .headAbout:hover{
     padding: 15px 20px;
@@ -80,6 +85,7 @@ width: 500px;
 /*place*/
 .place{
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
     justify-content: space-between;
  }
@@ -105,8 +111,103 @@ width: 500px;
     width: 100%;
     height: 1px;
     background: #F46A06;
-    -webkit-box-shadow: 0px 0px 43px 6px rgba(34, 60, 80, 0.45);
-    -moz-box-shadow: 0px 0px 43px 6px rgba(34, 60, 80, 0.45);
-    box-shadow: 0px 0px 43px 6px rgba(34, 60, 80, 0.45);
+    -webkit-box-shadow: 0 0 43px 6px rgba(34, 60, 80, 0.45);
+    -moz-box-shadow: 0 0 43px 6px rgba(34, 60, 80, 0.45);
+    box-shadow: 0 0 43px 6px rgba(34, 60, 80, 0.45);
     margin: 50px 0;
 }
+/*about*/
+.aboutButton{
+    padding: 10px 15px;
+    background: #F46A06;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+.aboutTitle{
+    margin: 20px 0;
+}
+.aboutImgBlock{
+    display: flex;
+}
+.aboutImgBlock img{
+    width: 30%;
+    margin: 40px;
+}
+.maps{
+    width: 500px;
+    height: 400px;
+}
+/*adaptive*/
+@media (max-width: 992px) {
+    .heroImg{
+        width: 40%;
+    }
+    .menuTitle {
+         font-size: 30px;
+    }
+}
+@media (max-width: 776px) {
+    .menuSliderBlock{
+        width: 300px;
+    }
+    .menuTitle {
+        font-size: 21px;
+    }
+    .menuTitleBlock {
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 30px;
+     }
+    .placeTitle {
+         font-size: 21px;
+    }
+}
+@media (max-width: 576px) {
+    .heroTitle {
+        font-size: 32px;
+     }
+    .aboutImgBlock img {
+        width: 70%;
+     }
+    .aboutImgBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 451px) {
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .heroImg {
+        width: 66%;
+        margin: 20px auto;
+    }
+    .menu {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .menuTitleBlock {
+        width: 90%;
+    }
+    .place {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .placeTitle {
+        font-size: 21px;
+        margin: 20px 0;
+    }
+    .headAbout {
+        padding: 6px 10px;
+    }
+    .headerTitle {
+        font-size: 27px;
+    }
+}
+

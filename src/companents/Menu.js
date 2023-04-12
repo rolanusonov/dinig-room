@@ -5,7 +5,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./stylus.css";
-import img1 from "./img/sticker.webp"
+import img1 from "./img/1465-ed4_wide.jpg"
 
 // import required modules
 import { EffectFade, Navigation, Pagination } from "swiper";
@@ -41,7 +41,7 @@ import { EffectFade, Navigation, Pagination } from "swiper";
                     </Swiper>
                 </div>
                     <div className="menuTitleBlock">
-                        <h1 className="menuTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ipsam.</h1>
+                        <h1 className="menuTitle">У нас на завтрак рабочим дают  2 кусочка сливочного масла,  2 варёных яйца, хлеб, соль и горячий чай.</h1>
                     </div>
 
 

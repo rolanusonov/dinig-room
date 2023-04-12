@@ -9,7 +9,7 @@ const Hero = () => {
                         <h1 className="heroTitle">Наша сталовая <br/> рабочим дает <br/> вкусную еду</h1>
                         <p>вы находитесь в информационном сайте</p>
                     </div>
-                    <img src={imgHero} alt=""/>
+                    <img className="heroImg" src={imgHero} alt=""/>
                 </div>
 
             </div>

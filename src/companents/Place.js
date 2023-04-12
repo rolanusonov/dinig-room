@@ -35,7 +35,7 @@ const Place = () => {
                         </Swiper>
                     </div>
                     <div className="menuTitleBlock">
-                        <h1 className="placeTitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ipsam.</h1>
+                        <h1 className="placeTitle">На обед и ужин дают блюда которые вы видите на фото.</h1>
                     </div>
 
                 </div>
