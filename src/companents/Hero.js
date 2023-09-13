@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="container">
                 <div className="hero">
                     <div>
-                        <h1 className="heroTitle">Наша сталовая <br/> рабочим дает <br/> вкусную еду</h1>
+                        <h1 className="heroTitle">Наша столовая <br/> рабочим дает <br/> вкусную еду</h1>
                         <p>вы находитесь в информационном сайте</p>
                     </div>
                     <img className="heroImg" src={imgHero} alt=""/>
